@@ -1,0 +1,55 @@
+.logo{
+    width: 20px;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+
+
+// ngb-carousel .wrapper {
+//     position: relative;
+//     height: 0;
+//     padding-top: 55%; /* Keep ratio for 900x500 images */
+//   }
+  
+//   ngb-carousel .wrapper>img {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//   }
+
+
+.picsum-img-wrapper{
+    opacity: 80%;
+    height: 93.99vh;
+    
+}
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important; 
+    
+}
+
+.carousel-caption h5 {
+    font-family: 'ArchyEDT-Thin', sans-serif;
+    color: #293241;
+    font-size: 30px;
+}
+
+.bstyle{
+    color: #81b29a;
+    border-radius: 40px;
+    border: none;
+    padding: 32px;
+    width: 550px;
+    top: 50%;
+    opacity: 70%;
+}
+
+.bstyle a {
+    text-decoration: none;
+}

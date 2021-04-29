@@ -1,0 +1,52 @@
+  <!-- <div class="logo">
+    <h3>FOODY</h3>
+  </div> -->
+        <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[0]" alt="Random first slide">
+          </div>
+          <div class="carousel-caption">
+            <button class="bstyle">
+              <a href="#"><h5>ნამდვილი საჭმელი გშია?</h5></a>
+            </button>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[1]" alt="Random second slide">
+          </div>
+        <div class="carousel-caption">
+          <button class="bstyle">
+            <a href="#"><h5>მოძებნე შენი კერძი</h5></a>
+          </button>
+        </div>
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img [src]="images[2]" alt="Random second slide">
+            </div>
+            <div class="carousel-caption">
+              <button class="bstyle">
+               <a href="#"> <h5>შეუკვეთე</h5></a>
+              </button>
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img [src]="images[3]" alt="Random second slide">
+            </div>   
+            <div class="carousel-caption">
+              <button class="bstyle">
+                <a href="#"><h5>ქარზე უსწრაფესად მოგიტანთ</h5></a>
+                </button>
+            </div>
+          </ng-template>
+
+
+
+         
+
+
+
+        
