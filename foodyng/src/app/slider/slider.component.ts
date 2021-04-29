@@ -13,5 +13,5 @@ export class SliderComponent implements OnInit {
   }
   constructor() {}
 
-  images = [ '../../assets/mogshivda.png', '../../assets/modzebne-1.png', '../../assets/last-.png', '../../assets/mogitant.png',]
+  images = [ '../../assets/mogshivda.png', '../../assets/modzebne-1.png', '../../assets/sheukvete-lastr.jpg', '../../assets/mogitant.png',]
 }

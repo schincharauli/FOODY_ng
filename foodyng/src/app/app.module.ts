@@ -8,6 +8,9 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { SliderComponent } from './slider/slider.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FeaturesComponent } from './features/features.component';
+import { ServiceComponent } from './service/service.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +18,9 @@ import { FeaturesComponent } from './features/features.component';
     NavigationComponent,
     SliderComponent,
     FeaturesComponent,
+    ServiceComponent,
+    TestimonialsComponent,
+    FooterComponent,
     
 
 
