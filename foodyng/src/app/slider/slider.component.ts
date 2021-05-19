@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap'
+import {NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
+import{ Router } from '@angular/router';
 
 @Component({
   selector: 'app-slider',
@@ -8,10 +9,22 @@ import {NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap'
   providers: [NgbCarouselConfig]  // add NgbCarouselConfig to the component providers
 })
 export class SliderComponent implements OnInit {
+
   ngOnInit(): void {
     throw new Error('Method not implemented.');
   }
-  constructor() {}
+  constructor(private router: Router) {}
 
   images = [ '../../assets/mogshivda.png', '../../assets/modzebne-1.png', '../../assets/sheukvetee.png', '../../assets/mogitant.png',]
+  btnClick=  () => {
+    this.router.navigateByUrl('/foodlist');
+}
+
+
+
+
+
+
+
+
 }

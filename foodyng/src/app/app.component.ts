@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { from } from 'rxjs';
+
+
 
 
 @Component({
@@ -8,6 +11,11 @@ import { Component } from '@angular/core';
   
 })
 export class AppComponent {
+  [x: string]: any;
   title = 'foodyng';
- 
+
+  constructor(){}
+
+
+
 }
