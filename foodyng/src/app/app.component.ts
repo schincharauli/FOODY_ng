@@ -11,6 +11,7 @@ import { from } from 'rxjs';
   
 })
 export class AppComponent {
+  [x: string]: any;
   title = 'foodyng';
 
   constructor(){}

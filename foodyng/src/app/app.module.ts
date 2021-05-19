@@ -12,7 +12,9 @@ import { FeaturesComponent } from './features/features.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { CardsComponent } from './cards/cards.component'
+import { CardsComponent } from './cards/cards.component';
+import {ServiceComponent} from './service/service.component'
+
 
 
 
@@ -28,8 +30,8 @@ import { CardsComponent } from './cards/cards.component'
     routingComponents,
     HomeComponent,
     CardsComponent,
-
-
+    ServiceComponent
+    
   ], 
   
   imports: [
@@ -37,10 +39,7 @@ import { CardsComponent } from './cards/cards.component'
     FormsModule,
     HttpClientModule,
     AppRoutingModule,
-    NgbModule,
-
-
- 
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
