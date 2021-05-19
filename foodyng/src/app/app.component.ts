@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import{CardsService} from './cards/cards.service'
+import { from } from 'rxjs';
+
+
 
 
 @Component({
@@ -11,10 +13,8 @@ import{CardsService} from './cards/cards.service'
 export class AppComponent {
   title = 'foodyng';
 
-  constructor(private card:CardsService){
-    this.card.getData().subscribe( (data: any) => {
-      console.log(data);
-    })
-  }
- 
+  constructor(){}
+
+
+
 }

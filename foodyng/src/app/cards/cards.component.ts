@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import{HttpClient} from '@angular/common/http';
+import { from } from 'rxjs';
+
 
 @Component({
   selector: 'app-cards',
@@ -7,11 +8,10 @@ import{HttpClient} from '@angular/common/http';
   styleUrls: ['./cards.component.scss']
 })
 export class CardsComponent implements OnInit {
-  
 
   constructor() { }
 
-  ngOnInit(): void {}
-
+  ngOnInit(): void {
+  }
 
 }

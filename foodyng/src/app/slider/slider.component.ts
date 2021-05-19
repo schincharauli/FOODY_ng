@@ -9,6 +9,7 @@ import{ Router } from '@angular/router';
   providers: [NgbCarouselConfig]  // add NgbCarouselConfig to the component providers
 })
 export class SliderComponent implements OnInit {
+
   ngOnInit(): void {
     throw new Error('Method not implemented.');
   }
@@ -18,4 +19,12 @@ export class SliderComponent implements OnInit {
   btnClick=  () => {
     this.router.navigateByUrl('/foodlist');
 }
+
+
+
+
+
+
+
+
 }

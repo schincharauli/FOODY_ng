@@ -9,32 +9,38 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { SliderComponent } from './slider/slider.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FeaturesComponent } from './features/features.component';
-import { ServiceComponent } from './service/service.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { CardsComponent } from './cards/cards.component'
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent,
     SliderComponent,
+    NavigationComponent,
     FeaturesComponent,
-    ServiceComponent,
     TestimonialsComponent,
     FooterComponent,
-    routingComponents
+    routingComponents,
+    HomeComponent,
+    CardsComponent,
 
-    
 
-
-  ],
+  ], 
+  
   imports: [
     BrowserModule,
     FormsModule,
     HttpClientModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+
+
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]
