@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { from } from 'rxjs';
+import {HttpClient} from '@angular/common/http'
 
 
 
@@ -10,11 +11,14 @@ import { from } from 'rxjs';
   styleUrls: ['./app.component.scss'],
   
 })
-export class AppComponent {
-  [x: string]: any;
-  title = 'foodyng';
+export class AppComponent implements OnInit{
+ 
 
-  constructor(){}
+
+  ngOnInit(){
+
+  }
+  
 
 
 

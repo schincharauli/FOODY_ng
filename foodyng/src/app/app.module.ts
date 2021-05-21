@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import{FormsModule}from '@angular/forms';
 import{HttpClientModule} from '@angular/common/http';
 
+
+
+
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
@@ -13,8 +16,13 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { CardsComponent } from './cards/cards.component';
-import {ServiceComponent} from './service/service.component'
+import {ServiceComponent} from './service/service.component';
+import {SiteFrameworkModule} from './site-framework/site-framework.module'
 
+
+
+
+ 
 
 
 
@@ -30,8 +38,10 @@ import {ServiceComponent} from './service/service.component'
     routingComponents,
     HomeComponent,
     CardsComponent,
-    ServiceComponent
-    
+    ServiceComponent,
+
+
+   
   ], 
   
   imports: [
@@ -39,7 +49,9 @@ import {ServiceComponent} from './service/service.component'
     FormsModule,
     HttpClientModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    SiteFrameworkModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
