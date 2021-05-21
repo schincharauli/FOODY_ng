@@ -1,7 +1,9 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser';
-import { ActivatedRoute } from '@angular/router';
-import { from } from 'rxjs';
+import { Observable } from 'rxjs';
+
+
+
 
 
 @Component({
@@ -9,16 +11,17 @@ import { from } from 'rxjs';
   templateUrl: './cards.component.html',
   styleUrls: ['./cards.component.scss']
 })
+
 export class CardsComponent implements OnInit {
+  http: any;
+  totalAngularPackages: any;
 
-  public constructor(private titleService: Title,
-    private route: ActivatedRoute) { }
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
 
-  public setTitle(newTitle: string) {
-    this.titleService.setTitle(newTitle);
-  }
+  constructor(private httpClient: HttpClient){  }
 
+  
+  ngOnInit() {      
+   
+}
+  
 }
