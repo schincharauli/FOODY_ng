@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SiteFrameworkComponent } from './site-framework/site-framework.component';
+import {ProductsService} from '../products/products.service'
 
 
 
@@ -9,7 +10,8 @@ import { SiteFrameworkComponent } from './site-framework/site-framework.componen
     SiteFrameworkComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    
   ], 
   exports: [
     SiteFrameworkComponent
